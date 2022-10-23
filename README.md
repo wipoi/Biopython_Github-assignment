@@ -1,5 +1,5 @@
-# **Biopython-scripts**
-Here are scripts for the *Biopython* assignment of the  *BVG-7003* course  
+# **Biopython-commands**
+Here are command lines for the *Biopython* assignment of the  *BVG-7003* course  
 
 ## Installing Biopython on terminal  
 
@@ -30,7 +30,7 @@ Here are scripts for the *Biopython* assignment of the  *BVG-7003* course
 > And I count the number of lines starting with *^>*:  
 > `grep -c "^>" NC_000913.faa`
 
-> Here is another script that count the record with a *for* loop:  
+> Here is another way to count the record with a *for* loop:  
 > `python3`  
 > ```
 > from Bio import SeqIO  
@@ -41,7 +41,23 @@ Here are scripts for the *Biopython* assignment of the  *BVG-7003* course
 > print("There were " + str(count) + " records in file " + filename)  
 > quit()
 > ```
-
-
+>
+> We can create a *.py* script: 
+> `nano count_fasta.py`  
+> And add the previous *for* loop in it:  
+> ```
+> from Bio import SeqIO  
+> filename = "NC_000913.faa"  
+> count = 0  
+> for record in SeqIO.parse(filename, "fasta"):  
+>    count = count + 1  
+> print("There were " + str(count) + " records in file " + filename)
+> ```
+> Then give the execute rigths and run it:  
+> ```
+> chmod 777 count_fasta.py  
+> python3 ./count_fasta.py  
+> ```
+> 
 
 
