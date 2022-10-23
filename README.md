@@ -44,6 +44,7 @@ Here are command lines for the *Biopython* assignment of the  *BVG-7003* course
 >
 > We can create a *.py* script:  
 > `nano count_fasta.py`  
+> 
 > And add the previous *for* loop in it:  
 > ```
 > from Bio import SeqIO  
