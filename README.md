@@ -13,7 +13,9 @@ Here are scripts for the *Biopython* assignment of the  *BVG-7003* course
 
 > ## Reading Sequence Files in Biopython
 > First, I import the data set and look for more information on it:  
-> `python3`  
-> `from Bio import SeqIO`  
-> `help(SeqIO)`  
-> `quit()`
+> ```
+> `python3  
+> from Bio import SeqIO  
+> help(SeqIO)  
+> quit()`
+> ```
