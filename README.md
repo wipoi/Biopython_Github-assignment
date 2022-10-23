@@ -24,9 +24,9 @@ Here are scripts for the *Biopython* assignment of the  *BVG-7003* course
 > quit()
 > ```
 
-> Then, I look the first lines of the *NC_000913.faa* file:
+> Then, I look the first lines of the *NC_000913.faa* file:  
 > `head NC_000913.faa` 
-> And I count the number of lines starting with *^>*:
+> And I count the number of lines starting with *^>*:  
 > `grep -c "^>" NC_000913.faa`
 
 
