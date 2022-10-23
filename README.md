@@ -54,11 +54,27 @@ Here are command lines for the *Biopython* assignment of the  *BVG-7003* course
 >    count = count + 1  
 > print("There were " + str(count) + " records in file " + filename)
 > ```
+> 
 > Then give the execute rigths and run it:  
 > ```
 > chmod 777 count_fasta.py  
 > python3 ./count_fasta.py  
 > ```
-> 
+>
+> We create a new .py script that print all the *id* and their length:  
+> `nano count_record.py`  
+> ```
+> from Bio import SeqIO  
+>  filename = "NC_000913.faa"  
+> for record in SeqIO.parse(filename, "fasta"):  
+>    print("Record " + record.id + ", length " + str(len(record.seq)))  
+>``` 
+>
+> Then give the execute rigths and run it:  
+> ```
+> chmod 777 count_record.py  
+> python3 ./count_record.py  
+> ```
+>
 
 
