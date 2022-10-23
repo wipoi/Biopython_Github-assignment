@@ -65,7 +65,7 @@ Here are command lines for the *Biopython* assignment of the  *BVG-7003* course
 > `nano count_record.py`  
 > ```
 > from Bio import SeqIO  
->  filename = "NC_000913.faa"  
+> filename = "NC_000913.faa"  
 > for record in SeqIO.parse(filename, "fasta"):  
 >    print("Record " + record.id + ", length " + str(len(record.seq)))  
 >``` 
