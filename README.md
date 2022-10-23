@@ -1,4 +1,4 @@
-# **Biopython-commands**
+# **Biopython-scripts**
 Here are command lines for the *Biopython* assignment of the  *BVG-7003* course  
 
 ## Installing Biopython on terminal  
