@@ -1,18 +1,18 @@
 # **Biopython-scripts**
-Here are scripts for the *Biopython* assignment of the  *BVG-7003* course
+Here are scripts for the *Biopython* assignment of the  *BVG-7003* course  
 
-> ## Installing Biopython on terminal
-> `python3 pip install biopython`
+> ## Installing Biopython on terminal  
+> `python3 pip install biopython`  
 > As you can see, python3 have been called before pip since pyhton 2.7 was set by default on my computer.
 >
-> Then, I verify is biopython is correctly installed with the commands:
+> Then, I verify is biopython is correctly installed with the commands:  
 > `python3  
 > import Bio  
-> quit()`
+> quit()`  
 > No warnings, we are good to go!
 
 > ## Reading Sequence Files in Biopython
-> First, I import the data set and look for more information on it:
+> First, I import the data set and look for more information on it:  
 > `python3  
 > from Bio import SeqIO  
 > help(SeqIO)  
