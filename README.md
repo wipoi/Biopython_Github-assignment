@@ -42,7 +42,7 @@ Here are command lines for the *Biopython* assignment of the  *BVG-7003* course
 > quit()
 > ```
 >
-> We can create a *.py* script: 
+> We can create a *.py* script:  
 > `nano count_fasta.py`  
 > And add the previous *for* loop in it:  
 > ```
