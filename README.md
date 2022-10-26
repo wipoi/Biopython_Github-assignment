@@ -2,7 +2,7 @@
 Here are command lines for the *Biopython* assignment of the  *BVG-7003* course  
 
 ## Prior requiered steps   
->Biopython must be installed before running scripts in this repository, for example running:  
+>Biopython **must** be installed before running scripts in this repository, for example running:  
 > `python3 pip install biopython` 
 >  
 > Installation can be verified using the following command:  
