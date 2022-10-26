@@ -19,12 +19,14 @@ Here are command lines for the *Biopython* assignment of the  *BVG-7003* course
 >`There were 4140 records in file NC_000913.faa`
 
 ## count_record.py  
->This script prints all the *id* in *NC_000913.faa* file and their associated length.  
+>This script prints all the 4140 *id* in *NC_000913.faa* file and their associated length.  
 >The result is in the object *out_count_record.txt*
 
 ## check_start_met.py
->This script counts how many protein sequences does not start by a *methionine*
+>This script counts how many protein sequences does not start by a *methionine*  
 >The result is:  
->`Found 0 records in NC_000913.faa which did not start with M`
+>`Found 0 records in NC_000913.faa which did not start with M`  
+>This results shows that all protein sequences in NC_000913.faa begins with a methionine (M).  
+
 
 
