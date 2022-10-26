@@ -13,12 +13,12 @@ Here are command lines for the *Biopython* assignment of the  *BVG-7003* course
 > ```  
 > If no warnings are obtained, we are good to go!  
 
->## count_fasta.py  
+## count_fasta.py  
 >This script counts the record in *NC_000913.faa* file.  
 >The result is:  
 >`There were 4140 records in file NC_000913.faa`
 
->## count_record.py  
+## count_record.py  
 >This script prints all the *id* in *NC_000913.faa* file and their associated length.  
 >The result is in the object *out_count_record.txt*
 
