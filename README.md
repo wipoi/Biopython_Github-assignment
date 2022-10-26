@@ -1,80 +1,23 @@
-# **Biopython-scripts**
+# **Biopython and Github assignment**
 Here are command lines for the *Biopython* assignment of the  *BVG-7003* course  
 
-## Installing Biopython on terminal  
-
-> `python3 pip install biopython`  
-> As you can see, python3 have been called before pip since pyhton 2.7 was set by default on my computer.
-
-> Then, I verify if biopython is correctly installed with the commands:  
-> `python3`  
+## Prior requiered steps   
+>Biopython must be installed before running scripts in this repository, for example running:  
+> `python3 pip install biopython` 
+>  
+> Installation can be verified using the following command:  
+> python3   
 > ```   
-> import Bio  
-> quit()
+> >>>import Bio  
+> >>>quit()
 > ```  
-> No warnings, we are good to go!  
+> If no warnings are obtained, we are good to go!  
 
-## Reading Sequence Files in Biopython
+## count_fasta.py
+This script counts the record in *NC_000913.faa*
 
-> First, I import the data set and look for more information on it:  
-> `python3`  
->  ```
-> from Bio import SeqIO  
-> help(SeqIO)  
-> quit()
-> ```
+## count_record.py
+This script prints all the *id* in *NC_000913.faa* and their associated length:  
 
-> Then, I look the first lines of the *NC_000913.faa* file:  
-> `head NC_000913.faa`  
-> 
-> And I count the number of lines starting with *^>*:  
-> `grep -c "^>" NC_000913.faa`
-
-> Here is another way to count the record with a *for* loop:  
-> `python3`  
-> ```
-> from Bio import SeqIO  
-> filename = "NC_000913.faa"  
-> count = 0  
-> for record in SeqIO.parse(filename, "fasta"):  
->    count = count + 1  
-> print("There were " + str(count) + " records in file " + filename)  
-> quit()
-> ```
->
-> We can create a *.py* script:  
-> `nano count_fasta.py`  
-> 
-> And add the previous *for* loop in it:  
-> ```
-> from Bio import SeqIO  
-> filename = "NC_000913.faa"  
-> count = 0  
-> for record in SeqIO.parse(filename, "fasta"):  
->    count = count + 1  
-> print("There were " + str(count) + " records in file " + filename)
-> ```
-> 
-> Then give the execute rigths and run it:  
-> ```
-> chmod 777 count_fasta.py  
-> python3 ./count_fasta.py  
-> ```
->
-> We create a new .py script that print all the *id* and their length:  
-> `nano count_record.py`  
-> ```
-> from Bio import SeqIO  
-> filename = "NC_000913.faa"  
-> for record in SeqIO.parse(filename, "fasta"):  
->    print("Record " + record.id + ", length " + str(len(record.seq)))  
->``` 
->
-> Then give the execute rigths and run it:  
-> ```
-> chmod 777 count_record.py  
-> python3 ./count_record.py  
-> ```
->
 
 
