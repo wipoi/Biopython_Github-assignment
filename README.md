@@ -26,7 +26,7 @@ Here are command lines for the *Biopython* assignment of the  *BVG-7003* course
 >This script counts how many protein sequences does not start by a *methionine*  
 >The result is:  
 >`Found 0 records in NC_000913.faa which did not start with M`  
->This results shows that all protein sequences in NC_000913.faa begins with a methionine (M).  
+>This results shows that all protein sequences in *NC_000913.faa* begins with a methionine (M).  
 
 
 
