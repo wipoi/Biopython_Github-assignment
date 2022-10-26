@@ -6,7 +6,7 @@ Here are command lines for the *Biopython* assignment of the  *BVG-7003* course
 > `python3 pip install biopython` 
 >  
 > Installation can be verified using the following command:  
-> python3   
+> `python3`     
 > ```   
 > >>>import Bio  
 > >>>quit()
