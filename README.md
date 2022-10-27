@@ -41,4 +41,21 @@ Here are command lines for the *Biopython* assignment of the  *BVG-7003* course
 >It also counts the number of converted files, here 1:  
 >`1 records converted`  
 
-###
+## Filtering a sequence file  
+### filter.py  
+>This script writes protein sequences egal or bigger than 100 amino acids long of the *NC_000913.faa* file in the *NC_000913_long_only.faa* file using the write() >method.  
+>It also print the number of retained sequences among all:  
+>`3720 records selected out of 4140`  
+
+## Editing sequences  
+### edit.py  
+>This script remove the last letter (the asterix) at the end of each of the protein sequences in *PGSC_DM_v3.4_pep_representative.fasta* file and put the troncated sequences 
+>in the *PGSC_DM_v3.4_pep_rep_no_stars.fasta* file.
+
+## Working with Sequence Features  
+### filter_2.py  
+>This script selects records of type *CDS* in *NC_000913.gbk* and make a file named *NC_000913_cds.fasta* that contains a feature_name (herein *locus_tag*) and the >sequence for each records.  
+>It also counts the number of CDS sequences extracted:  
+>`4319 CDS sequences extracted`  
+
+### total_gene_lengths.py  
