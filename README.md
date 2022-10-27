@@ -49,13 +49,14 @@ Here are command lines for the *Biopython* assignment of the  *BVG-7003* course
 
 ## Editing sequences  
 ### edit.py  
->This script remove the last letter (the asterix) at the end of each of the protein sequences in *PGSC_DM_v3.4_pep_representative.fasta* file and put the troncated sequences 
->in the *PGSC_DM_v3.4_pep_rep_no_stars.fasta* file.
+>This script remove the last letter (the asterix) at the end of each of the protein sequences in *PGSC_DM_v3.4_pep_representative.fasta* file and put the troncated >sequences in the *PGSC_DM_v3.4_pep_rep_no_stars.fasta* file.
 
 ## Working with Sequence Features  
 ### filter_2.py  
->This script selects records of type *CDS* in *NC_000913.gbk* and make a file named *NC_000913_cds.fasta* that contains a feature_name (herein *locus_tag*) and the >sequence for each records.  
+>This script selects records of type *CDS* in *NC_000913.gbk* and makes a file named *NC_000913_cds.fasta* that contains a feature_name (herein *locus_tag*) and the >sequence for each records.  
 >It also counts the number of CDS sequences extracted:  
 >`4319 CDS sequences extracted`  
 
 ### total_gene_lengths.py  
+>This script selects *gene* type features in *NC_000913.gbk* and calculate the total length of all genes by adding each gene length giving the following results:  
+>`Total length of all genes is 4137209`  
