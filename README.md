@@ -31,8 +31,14 @@ Here are command lines for the *Biopython* assignment of the  *BVG-7003* course
 >This result shows that all protein sequences in *NC_000913.faa* begin with a methionine (M).  
 
 ### check_start_met_1.py
->This script prints all the protein sequences id of *PGSC_DM_v3.4_pep_representative.fasta* file with their first amino acid using the standard IUPAC single letter amino acid code. Printed results are save in the out_check_start_met_1 text file
+>This script prints all the protein sequences id of *PGSC_DM_v3.4_pep_representative.fasta* file with their first amino acid using the standard IUPAC single letter >amino acid code. Printed results are save in the out_check_start_met_1 text file
 >It also counts the protein that does not begin with a methionin and report it as:   
 >`Found 208 records in PGSC_DM_v3.4_pep_representative.fasta which did not start with M`  
 
-##
+## Converting a sequence file  
+### convert.py  
+>This script converts *.gbk* (Genbank) files in *fasta* file using the convert() method. Applied to *"NC_000913.gbk* file, it generates a *NC_000913_converted.fasta* file.  
+>It also counts the number of converted files, here 1:  
+>`1 records converted`  
+
+###
