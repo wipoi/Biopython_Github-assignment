@@ -60,3 +60,20 @@ Here are command lines for the *Biopython* assignment of the  *BVG-7003* course
 ### total_gene_lengths.py  
 >This script selects *gene* type features in *NC_000913.gbk* and calculate the total length of all genes by adding each gene length giving the following results:  
 >`Total length of all genes is 4137209`  
+
+## Phylogenetics with Bio-Phylo  
+### simple.dnd  
+>A Newick file containing groups for phylogenetics  
+
+### phylo.py  
+>This script uses *phylo.read* to generate a phylogenetic tree with *simple.dnd* file  
+>Result is in *out_phylo* file  
+
+### phylo2.py  
+>This script generates a more convenient phylogenetical tree with *simple.dnd* file using *Phylo.draw_ascii*  
+>Results is in *out_phylo2* file  
+
+### phylo3.py  
+>This script plots the previous phylogenetical tree using *Phylo.draw*  
+>** *matplotlib* or *pylab* must be installed to use this script **  
+>Result is in *out_phylo3* file  
