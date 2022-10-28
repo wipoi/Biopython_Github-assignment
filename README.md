@@ -37,7 +37,8 @@ Here are command lines for the *Biopython* assignment of the  *BVG-7003* course.
 
 ## Converting a sequence file  
 ### convert.py  
->This script converts *.gbk* (Genbank) files in *fasta* files using the convert() method. Applied to *"NC_000913.gbk* file, it generates a *NC_000913_converted.fasta* file.  
+>This script converts *.gbk* (Genbank) files in *fasta* files using the convert() method.  
+>Applied to *"NC_000913.gbk* file, it generates a *NC_000913_converted.fasta* file.  
 >It also counts the number of converted files, herein, one have been converted:  
 >`1 records converted`  
 
