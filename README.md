@@ -75,5 +75,5 @@ Here are command lines for the *Biopython* assignment of the  *BVG-7003* course
 
 ### phylo3.py  
 >This script plots the previous phylogenetical tree using *Phylo.draw*  
->** *matplotlib* or *pylab* must be installed to use this script **  
+>***matplotlib* or *pylab* must be installed to use this script**  
 >Result is in *out_phylo3* file  
