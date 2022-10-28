@@ -25,13 +25,13 @@ Here are command lines for the *Biopython* assignment of the  *BVG-7003* course.
 
 ## Checking proteins start with methionine  
 ### check_start_met.py
->This script counts how many protein sequences do not start by a *methionine*  
+>This script counts how many protein sequences do not start by a *methionine*.  
 >The result is:  
 >`Found 0 records in NC_000913.faa which did not start with M`  
 >This result shows that all protein sequences in *NC_000913.faa* begin with a methionine (M).  
 
 ### check_start_met_1.py
->This script prints all the protein sequences id of *PGSC_DM_v3.4_pep_representative.fasta* file with their first amino acid using the standard IUPAC single letter >amino acid code. Printed results are save in the out_check_start_met_1 text file
+>This script prints all the protein sequences id of *PGSC_DM_v3.4_pep_representative.fasta* file with their first amino acid using the standard IUPAC single letter >amino acid code. Printed results are save in the out_check_start_met_1 text file.
 >It also counts the protein that does not begin with a methionin and report it as:   
 >`Found 208 records in PGSC_DM_v3.4_pep_representative.fasta which did not start with M`  
 
@@ -48,7 +48,7 @@ Here are command lines for the *Biopython* assignment of the  *BVG-7003* course.
 >`3720 records selected out of 4140`  
 
 ### filter1.1.py  
->This script doesn't work since no *output_handle* have been created in it  
+>This script doesn't work since no *output_handle* have been created in it.  
 
 ## Editing sequences  
 ### edit.py  
@@ -66,17 +66,17 @@ Here are command lines for the *Biopython* assignment of the  *BVG-7003* course.
 
 ## Phylogenetics with Bio-Phylo  
 ### simple.dnd  
->A Newick file containing groups for phylogenetics  
+>A Newick file containing groups for phylogenetics.  
 
 ### phylo.py  
->This script uses *phylo.read* to generate a phylogenetic tree with *simple.dnd* file  
->Result is in *out_phylo* file  
+>This script uses *phylo.read* to generate a phylogenetic tree with *simple.dnd* file.  
+>Result is in *out_phylo* file.  
 
 ### phylo2.py  
->This script generates a more convenient phylogenetical tree with *simple.dnd* file using *Phylo.draw_ascii*  
->Results is in *out_phylo2* file  
+>This script generates a more convenient phylogenetical tree with *simple.dnd* file using *Phylo.draw_ascii*.  
+>Results is in *out_phylo2* file.  
 
 ### phylo3.py  
->This script plots the previous phylogenetical tree using *Phylo.draw*  
->***matplotlib* or *pylab* must be installed to use this script**  
->Result is in *out_phylo3* file  
+>This script plots the previous phylogenetical tree using *Phylo.draw*.  
+>***matplotlib* or *pylab* must be installed to use this script**.  
+>Result is in *out_phylo3* file.  
