@@ -63,7 +63,7 @@ Here are command lines for the *Biopython* assignment of the  *BVG-7003* course.
 
 ## Working with Sequence Features  
 ### filter_2.py  
->This script selects records of type *CDS* in *NC_000913.gbk* and makes a file named *NC_000913_cds.fasta* that contains a feature_name (herein *locus_tag*) and the >sequence for each records.  
+>This script selects records of type *CDS* in *NC_000913.gbk* and makes a file named *NC_000913_cds.fasta* that contains a feature_name (herein *locus_tag*) and the sequence for each records.  
 >It also counts the number of CDS sequences extracted:  
 >`4319 CDS sequences extracted`  
 
