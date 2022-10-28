@@ -82,7 +82,7 @@ Here are command lines for the *Biopython* assignment of the  *BVG-7003* course.
 
 ### phylo2.py  
 >This script generates a more convenient phylogenetical tree with *simple.dnd* file using *Phylo.draw_ascii*.  
->Results is in *out_phylo2* file.  
+>Result is in *out_phylo2* file.  
 
 ### phylo3.py  
 >This script plots the previous phylogenetical tree using *Phylo.draw*.  
