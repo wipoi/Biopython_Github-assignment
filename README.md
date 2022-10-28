@@ -21,7 +21,7 @@ Here are command lines for the *Biopython* assignment of the  *BVG-7003* course.
 
 ### count_record.py  
 >This script prints all the 4140 *ID* of *NC_000913.faa* file and their associated length.  
->The result is in the *out_count_record.txt* text file
+>The result is in the *out_count_record.txt* text file.
 
 ## Checking proteins start with methionine  
 ### check_start_met.py
