@@ -77,7 +77,7 @@ Here are command lines for the *Biopython* assignment of the  *BVG-7003* course.
 >A Newick file containing phylogenetic groups.  
   
 ### phylo.py  
->This script uses *phylo.read* to generate a phylogenetic tree with *simple.dnd* file.  
+>This script uses *phylo.read* to generate a phylogenetic tree with the groups of *simple.dnd* file.  
 >Result is in *out_phylo* file.  
 
 ### phylo2.py  
