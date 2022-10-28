@@ -55,7 +55,7 @@ Here are command lines for the *Biopython* assignment of the  *BVG-7003* course.
 >   File "filter1.1.py", line 12, in <module>
 >        SeqIO.write(record, output_handle, "fasta")
 >NameError: name 'output_handle' is not defined
-```  
+>```  
 
 ## Editing sequences  
 ### edit.py  
