@@ -49,7 +49,12 @@ Here are command lines for the *Biopython* assignment of the  *BVG-7003* course.
 >`3720 records selected out of 4140`  
 
 ### filter1.1.py  
->This script doesn't work since no *output_handle* local object have been defined in it.  
+>This script doesn't work since no *output_handle* local object have been defined in it:  
+>```
+>Traceback (most recent call last):
+  File "filter1.1.py", line 12, in <module>
+    SeqIO.write(record, output_handle, "fasta")
+NameError: name 'output_handle' is not defined```  
 
 ## Editing sequences  
 ### edit.py  
