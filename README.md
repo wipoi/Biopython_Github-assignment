@@ -44,8 +44,8 @@ Here are command lines for the *Biopython* assignment of the  *BVG-7003* course.
 
 ## Filtering a sequence file  
 ### filter.py  
->This script writes protein sequences egal or bigger than 100 amino acids long of the *NC_000913.faa* file in the *NC_000913_long_only.faa* file using the write() >method.  
->It also print the number of retained sequences among all:  
+>This script writes protein sequences egal or bigger than 100 amino acids long of the *NC_000913.faa* file in the *NC_000913_long_only.faa* file using the write() method.  
+>It also prints the number of retained sequences among all:  
 >`3720 records selected out of 4140`  
 
 ### filter1.1.py  
