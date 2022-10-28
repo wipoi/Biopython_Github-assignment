@@ -68,7 +68,8 @@ Here are command lines for the *Biopython* assignment of the  *BVG-7003* course.
 >`4319 CDS sequences extracted`  
 
 ### total_gene_lengths.py  
->This script selects *gene* type features in *NC_000913.gbk* and calculate the total length of all genes by adding each gene length giving the following results:  
+>This script selects *gene* type features in *NC_000913.gbk* and calculates the total length including all genes.  
+>It gives the following results:  
 >`Total length of all genes is 4137209`  
 
 ## Phylogenetics with Bio-Phylo  
