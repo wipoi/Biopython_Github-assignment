@@ -25,7 +25,7 @@ Here are command lines for the *Biopython* assignment of the  *BVG-7003* course.
 
 ## Checking proteins start with methionine  
 ### check_start_met.py
->This script counts how many protein sequences does not start by a *methionine*  
+>This script counts how many protein sequences do not start by a *methionine*  
 >The result is:  
 >`Found 0 records in NC_000913.faa which did not start with M`  
 >This result shows that all protein sequences in *NC_000913.faa* begin with a methionine (M).  
