@@ -49,7 +49,7 @@ Here are command lines for the *Biopython* assignment of the  *BVG-7003* course.
 >`3720 records selected out of 4140`  
 
 ### filter1.1.py  
->This script doesn't work since no *output_handle* have been created in it.  
+>This script doesn't work since no *output_handle* local object have been defined in it.  
 
 ## Editing sequences  
 ### edit.py  
