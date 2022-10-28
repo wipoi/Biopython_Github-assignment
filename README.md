@@ -47,6 +47,9 @@ Here are command lines for the *Biopython* assignment of the  *BVG-7003* course
 >It also print the number of retained sequences among all:  
 >`3720 records selected out of 4140`  
 
+### filter1.1.py  
+>This script doesn't work since no *output_handle* have been created in it  
+
 ## Editing sequences  
 ### edit.py  
 >This script remove the last letter (the asterix) at the end of each of the protein sequences in *PGSC_DM_v3.4_pep_representative.fasta* file and put the troncated >sequences in the *PGSC_DM_v3.4_pep_rep_no_stars.fasta* file.
