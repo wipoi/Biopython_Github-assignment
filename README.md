@@ -31,7 +31,7 @@ Here are command lines for the *Biopython* assignment of the  *BVG-7003* course.
 >This result shows that all protein sequences in *NC_000913.faa* begin with a methionine (M).  
 
 ### check_start_met_1.py
->This script prints all the protein sequences ID of *PGSC_DM_v3.4_pep_representative.fasta* file with their first amino acid using the standard IUPAC single letter >amino acid code. Printed results are save in the out_check_start_met_1 text file.
+>This script prints all the protein sequences ID of *PGSC_DM_v3.4_pep_representative.fasta* file with their first amino acid using the standard IUPAC single letter amino acid code. Printed results are save in the out_check_start_met_1 text file.
 >It also counts the protein that does not begin with a methionin and report it as:   
 >`Found 208 records in PGSC_DM_v3.4_pep_representative.fasta which did not start with M`  
 
