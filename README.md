@@ -59,7 +59,7 @@ Here are command lines for the *Biopython* assignment of the  *BVG-7003* course.
 
 ## Editing sequences  
 ### edit.py  
->This script remove the last letter (the asterix) at the end of each of the protein sequences in *PGSC_DM_v3.4_pep_representative.fasta* file and put the troncated >sequences in the *PGSC_DM_v3.4_pep_rep_no_stars.fasta* file.
+>This script removes the last letter (the asterix) at the end of each of the protein sequences in *PGSC_DM_v3.4_pep_representative.fasta* file and put the troncated sequences in the *PGSC_DM_v3.4_pep_rep_no_stars.fasta* file.
 
 ## Working with Sequence Features  
 ### filter_2.py  
