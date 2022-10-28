@@ -20,7 +20,7 @@ Here are command lines for the *Biopython* assignment of the  *BVG-7003* course.
 >`There were 4140 records in file NC_000913.faa`
 
 ### count_record.py  
->This script prints all the 4140 *ID* in *NC_000913.faa* file and their associated length.  
+>This script prints all the 4140 *ID* of *NC_000913.faa* file and their associated length.  
 >The result is in the *out_count_record.txt* text file
 
 ## Checking proteins start with methionine  
